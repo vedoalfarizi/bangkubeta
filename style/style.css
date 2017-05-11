@@ -1,0 +1,50 @@
+
+
+
+
+
+body {
+
+ 
+ font-family:berlin sans fb;
+ color: black;
+ font-size: 150%;
+background:url(../image/gambar.jpg); background-attachment:fixed
+}
+
+
+.form {
+  
+  width: 15%;
+  margin: 10% 40% 10%;
+  padding: 3%;
+  text-align: center;
+  box-shadow:0 0 10px 0;
+}
+.form input {
+  font-family: berlin sans fb;
+  outline: 0;
+  background:white;
+  width: 100%;
+  border: 10;
+  margin: 0 0 15%;
+  padding: 5%;
+  font-size: 100%;
+border-radius:20px;
+  
+}
+.form button {
+  font-family: berlin sans fb;
+ border-radius:20px;
+  background: white;
+  padding: 6%;
+  color: #gray;
+  font-size: 100%;
+  cursor: pointer;
+  width:40%;
+}
+.form button:hover{
+  background: rgba(255 200 90 0.4);
+  
+}
+
