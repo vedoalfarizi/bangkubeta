@@ -7,13 +7,18 @@
 	</title>
 </head>
 <body>
+<form>
+  <div>
+    
+  </div>
+</form>
 <select id="end" onchange="calcRoute()"  name="select-native-2" id="select-native-2"  data-mini="true">
             <option value="" data-placeholder="true">Pilih Tujuan </option>
             <option value="-6.168374,106.7586">Test1</option>
             <option value="-6.168374,106.7586">Test2</option>
 </select>
 <div id="direction-panel"></div>
-<div id="map" style="height: 600px; width: 800px"></div>
+<div id="map" style="height: 600px; width: 800px" ></div>
 
 
 <script type="text/javascript">
